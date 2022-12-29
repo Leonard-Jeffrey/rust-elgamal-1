@@ -28,3 +28,7 @@ serde = { version = "1", default_features = false, features = ["derive"], option
 [dev-dependencies]
 bincode = "1"
 rand = { version = "0.8" }
+
+
+[[example]]
+name = "time"
