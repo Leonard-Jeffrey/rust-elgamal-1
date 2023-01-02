@@ -57,7 +57,8 @@ let t2 = Instant::now();
 let decrypted = dec_key.decrypt(encrypted);
 let t2 = t2.elapsed();
 
-assert_eq!(message, decrypted);
+let mm = &Scalar::from(6u32) * &GENERATOR_TABLE;
+assert_eq!(mm, decrypted);
 
 
 let mut rng = StdRng::from_entropy();

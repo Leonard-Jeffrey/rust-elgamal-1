@@ -1,3 +1,3 @@
 cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=c:\E\Github\Rust\rust-elgamal-1\target\debug\build\typenum-29ff7f5fd532efa4\out\consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=c:\E\Github\Rust\rust-elgamal-1\target\debug\build\typenum-29ff7f5fd532efa4\out\op.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=d:\Doc\repo\rust\rust-elgamal-1\target\debug\build\typenum-29ff7f5fd532efa4\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=d:\Doc\repo\rust\rust-elgamal-1\target\debug\build\typenum-29ff7f5fd532efa4\out\op.rs

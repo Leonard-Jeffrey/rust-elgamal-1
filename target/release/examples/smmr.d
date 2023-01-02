@@ -1,0 +1,1 @@
+D:\Doc\repo\rust\rust-elgamal-1\target\release\examples\smmr.exe: D:\Doc\repo\rust\rust-elgamal-1\examples\smmr.rs D:\Doc\repo\rust\rust-elgamal-1\src\ciphertext.rs D:\Doc\repo\rust\rust-elgamal-1\src\decrypt.rs D:\Doc\repo\rust\rust-elgamal-1\src\encrypt.rs D:\Doc\repo\rust\rust-elgamal-1\src\lib.rs
