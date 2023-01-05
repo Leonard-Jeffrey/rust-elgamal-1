@@ -49,15 +49,15 @@ const N:usize=100;
 fn main(){
 
 
-for j in 6..16 {
-    println!("=================== j = {} ===================", j);
+for n_var in 15..16 {
+    println!("=================== j = {} ===================", n_var);
     let t0 = Instant::now();
     // 用户预处理数据
     let k = 1;
     //let n = 2u128.pow(16);
     //let n = 2_usize.pow(16);
-    let n = 2_usize.pow(j);
-    let m = 2;
+    let n = 2_usize.pow(n_var);
+    let m = 5;
     
     let mut rng = rand::thread_rng(); // 随机数生成器
 
